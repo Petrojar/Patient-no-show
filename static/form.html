@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patient No-Show Prediction</title>
+</head>
+
+<body>
+    <h2>Predict No-Show</h2>
+    <form action="/predict" method="post">
+        <label>Age: <input name="age" type="number" step="1"></label><br>
+        <label>Scholarship: <input name="scholarship" type="number"></label><br>
+        <label>Hypertension: <input name="hypertension" type="number"></label><br>
+        <label>Diabetes: <input name="diabetes" type="number"></label><br>
+        <label>Alcoholism: <input name="alcoholism" type="number"></label><br>
+        <label>Handcap: <input name="handcap" type="number"></label><br>
+        <label>SMS Received: <input name="sms_received" type="number"></label><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+
+</html>
